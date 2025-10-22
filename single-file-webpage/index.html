@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>간단한 웹페이지</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            color: #333;
+        }
+        button {
+            padding: 10px 15px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h1>HTML5, CSS3, JavaScript 공부하기</h1>
+    <p>이 웹페이지는 HTML5, CSS3, JavaScript를 사용하여 만들어졌습니다.</p>
+    <button onclick="showAlert()">클릭하세요!</button>
+
+    <script>
+        function showAlert() {
+            alert('버튼이 클릭되었습니다!');
+        }
+    </script>
+</body>
+</html>
